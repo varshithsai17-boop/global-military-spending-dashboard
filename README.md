@@ -1,4 +1,3 @@
-<<<<<<< HEAD
 # 🌍 Global Military Expenditure Analysis
 
 **Python for Business — CIA Project**
@@ -142,6 +141,3 @@ The Streamlit dashboard provides:
 ## 📄 License
 
 This project is provided for educational purposes as part of the Python for Business CIA assessment.
-=======
-# python-cia-2-military-spending
->>>>>>> e42d17e641a682d830024c1caf66f6890510f6d4
