@@ -16,7 +16,9 @@ Python CIA II/
 │   ├── gdp_pct_sipri_2024.csv              # Spending as % of GDP (SIPRI)
 │   └── gdp_pct_iiss_2020.csv              # Spending as % of GDP (IISS)
 ├── notebooks/
-│   └── analysis.ipynb                       # Main Jupyter Notebook (EDA + Viz)
+│   ├── Extra Analysis.ipynb                 # Full 18-section EDA + visualization notebook
+│   ├── Required Analysis.ipynb              # Core required EDA sections
+│   └── military_spending_analysis.ipynb     # Working analysis notebook
 ├── docs/
 │   ├── analysis.html                        # HTML export of notebook
 │   └── additional_codes.docx               # Word doc — custom markers & colors
@@ -58,7 +60,7 @@ pip install -r requirements.txt
 
 ### 2. Run the Jupyter Notebook
 ```bash
-jupyter notebook notebooks/analysis.ipynb
+jupyter notebook "notebooks/Extra Analysis.ipynb"
 ```
 
 ### 3. Generate Documentation
@@ -80,7 +82,7 @@ The dashboard will open at [http://localhost:8501](http://localhost:8501)
 
 ## 📓 Notebook Contents
 
-The Jupyter notebook covers **18 sections**:
+The main notebook (`Extra Analysis.ipynb`) covers **18 sections**:
 
 | # | Section | Description |
 |---|---------|-------------|
