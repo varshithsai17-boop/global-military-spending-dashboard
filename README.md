@@ -22,6 +22,8 @@ Python CIA II/
 │   └── additional_codes.docx               # Word doc — custom markers & colors
 ├── app/
 │   └── app.py                               # Streamlit interactive dashboard
+├── .streamlit/
+│   └── config.toml                          # Dark theme configuration
 ├── scripts/
 │   ├── scrape_data.py                       # Wikipedia data scraper
 │   ├── generate_notebook.py                 # Notebook generator script
@@ -105,12 +107,16 @@ The Jupyter notebook covers **18 sections**:
 
 ## 🖥️ Dashboard Features
 
-The Streamlit dashboard provides:
-- **Sidebar controls** — dataset selector, country count slider, chart type, color scheme
-- **Tab 1: Charts** — Bar, Horizontal Bar, Pie, Scatter, Treemap (all interactive)
-- **Tab 2: Data Table** — Full dataset with search/filter and summary statistics
-- **Tab 3: % GDP Analysis** — Side-by-side SIPRI vs IISS GDP percentage charts
-- **Tab 4: Source Comparison** — Grouped bar chart comparing SIPRI and IISS estimates
+A polished, dark-themed Streamlit dashboard with a cohesive design system
+(custom fonts, gradient KPI cards, and a unified Plotly style across every chart):
+
+- **Hero header + KPI cards** — total tracked spending, top spender, top-5 concentration, and highest defense burden at a glance
+- **Sidebar controls** — dataset selector, country-count slider, and rankings chart type
+- **🌍 Overview** — interactive **world choropleth map** of spending, plus top-10 and by-region breakdowns
+- **🏆 Rankings** — configurable Bar / Horizontal Bar / Treemap / Pie / Scatter (spending vs % GDP)
+- **💰 % of GDP** — side-by-side SIPRI vs IISS defense-burden charts with a key-insight callout
+- **🔄 Source Comparison** — grouped SIPRI vs IISS bars, a difference table, and regional totals
+- **📋 Data** — searchable, sortable full dataset with one-click **CSV export**
 
 ---
 
